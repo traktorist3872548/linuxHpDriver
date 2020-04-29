@@ -1,4 +1,7 @@
 # linuxHpDriver
+
+https://tutorialforlinux.com/2020/04/08/step-by-step-driver-hp-laser-107w-107a-linux-mint-19-installation/3/
+
 HP provides a downloadable "driver" for Linux for the HP 107w printer but there are NO reasonable install instructions provided, and following the "obvious" install process did not get the printer working.
 
 The closest I found to HP install instuctions once I knew more is https://support.hp.com/in-en/document/c05588857
