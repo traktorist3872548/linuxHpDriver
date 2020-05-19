@@ -1,0 +1,5 @@
+apt-get install samba
+# install wine 
+apt-get install winehq-stable -y
+# download radiant:
+wget https://www.radiantviewer.com/files/RadiAnt-2020.1.1-Setup.exe
