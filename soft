@@ -3,3 +3,53 @@ apt-get install samba
 apt-get install winehq-stable -y
 # download radiant:
 wget https://www.radiantviewer.com/files/RadiAnt-2020.1.1-Setup.exe
+# remmina installation
+apt-get install remmina remmina-plugin-rdp -y
+# add rdp connection file
+cd /home/user/.local/share/remmina
+touch default.remmina
+# insert to /home/user/.local/share/remmina/default.remmina
+[remmina]
+sound=off
+sharefolder=
+name=MPC
+cert_ignore=0
+console=0
+ssh_enabled=0
+exec=
+clientname=
+loadbalanceinfo=
+server=mpc-srv-01.medprofcentr.local
+colordepth=15
+ssh_auth=0
+postcommand=
+group=
+sharesmartcard=0
+quality=0
+username=
+ssh_charset=
+ssh_loopback=0
+ssh_username=
+gateway_password=
+gateway_server=
+gateway_username=
+microphone=0
+execpath=
+resolution_width=
+gateway_usage=0
+disableautoreconnect=0
+password=
+resolution_height=
+security=
+domain=medprofcentr.local
+disablepasswordstoring=0
+precommand=
+ssh_server=
+protocol=RDP
+shareprinter=1
+gateway_domain=
+disableclipboard=0
+ssh_privatekey=
+last_success=20200519
+window_maximize=1
+viewmode=1
