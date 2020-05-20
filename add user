@@ -1,2 +1,9 @@
 1. add regular user:
      adduser user
+     
+2. allow regular user install soft, submin user add all permissions
+     submin  ALL=(ALL:ALL) ALL
+     user    ALL = NOPASSWD : /usr/bin/apt , /usr/bin/aptitude
+
+3. add submin user to root group
+     usermod -aG sudo submin
