@@ -1,5 +1,6 @@
 1. add regular user:
      adduser user
+     passwd user
      
 2. allow regular user install soft, submin user add all permissions
      submin  ALL=(ALL:ALL) ALL
